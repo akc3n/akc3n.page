@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:user@akc3n.page
+Contact: https://matrix.to/#/@akc3n:grapheneos.org
+Expires: 2025-10-10T22:07:00.000Z
+Encryption: https://akc3n.page/pub-key.txt
+Encryption: openpgp4fpr:F79255E05102727C94F25C6807204FD4F27C62F5
+Preferred-Languages: en
+Canonical: https://akc3n.page/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQT3klXgUQJyfJTyXGgHIE/U8nxi9QUCY0Xu8AAKCRAHIE/U8nxi
+9WBXAP9MLnpJ82XBWMnydNCZnw6+kMq+vT5KJZVlxsIFhXtMVAD/dc5XgrQJww5J
+XGoA+dmXuq/UWvdco+SmSoFFj+DTbAk=
+=9jxK
+-----END PGP SIGNATURE-----

@@ -1,8 +1,57 @@
 baseURL: https://akc3n.page/
 languageCode: en-us
-title: akc3n
+title: akc3n.page
 theme: WonderMod
+enableRobotsTXT: true
+enableGitInfo: true
 
 minify:
   disableXML: true
   minifyOutput: true
+
+params:
+  author: akc3n
+  description: Just an ordinary human
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowToc: true
+  ShowRssButtonInSectionTermList: false
+  ShowCodeCopyButtons: true
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+      #favicon: "/favicon.ico"
+      #favicon16x16: "/favicon-16x16.png"
+      #favicon32x32: "/favicon-32x32.png"
+
+  label:
+    text: "akc3n"
+
+  profileMode:
+    enabled: true
+    title: "akc3n's page" # optional default will be site title
+    subtitle: "Just an ordinary human. Love learning, puzzles & food!"
+    imageUrl: "/images/avatar.png" # optional
+    imageTitle: "Just an ordinary human's profile picture" # optional
+      #imageWidth: 120 # custom size
+      #imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archives"
+      - name: Github
+        url: "https://github.com/akc3n"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/akc3n"
+    - name: matrix
+      url: "https://matrix.to/#/@akc3n:grapheneos.org"
+    - name: twitter
+      url: "https://twitter.com/JuriAksenov"
+    - name: reddit
+      url: "https://reddit.com/u/akc3n"

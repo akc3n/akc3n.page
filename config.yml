@@ -1,4 +1,8 @@
-baseURL: http://example.org/
+baseURL: https://akc3n.page/
 languageCode: en-us
-title: My New Hugo Site
+title: akc3n
 theme: WonderMod
+
+minify:
+  disableXML: true
+  minifyOutput: true

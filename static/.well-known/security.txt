@@ -3,15 +3,16 @@ Hash: SHA256
 
 Contact: mailto:user@akc3n.page
 Contact: https://matrix.to/#/@akc3n:grapheneos.org
-Expires: 2025-10-10T22:07:00.000Z
+Expires: 2023-10-10T22:07:00.000Z
 Encryption: https://akc3n.page/pub-key.txt
 Encryption: openpgp4fpr:F79255E05102727C94F25C6807204FD4F27C62F5
 Preferred-Languages: en
 Canonical: https://akc3n.page/.well-known/security.txt
+
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQT3klXgUQJyfJTyXGgHIE/U8nxi9QUCY0Xu8AAKCRAHIE/U8nxi
-9WBXAP9MLnpJ82XBWMnydNCZnw6+kMq+vT5KJZVlxsIFhXtMVAD/dc5XgrQJww5J
-XGoA+dmXuq/UWvdco+SmSoFFj+DTbAk=
-=9jxK
+iHUEARYIAB0WIQT3klXgUQJyfJTyXGgHIE/U8nxi9QUCY0X19gAKCRAHIE/U8nxi
+9Th9AQCtBDD6rhosKnKg+SAqCsmCyP9Pe6JlVCZFOQC4sxirwQD9H3P2BQmWgOih
+KHcmCIBrTVQyqkC4A8b+bh9AybNzfg0=
+=NnDw
 -----END PGP SIGNATURE-----

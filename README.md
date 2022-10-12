@@ -26,7 +26,8 @@ https://www.hardenize.com/report/akc3n.page/1665539089
 
 ## License
 
-[`Attribution-ShareAlike 4.0 International`](LICENSE) - [![GitHub](https://img.shields.io/github/license/akc3n/akc3n.page?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
+[`Attribution-ShareAlike 4.0 International`](LICENSE)   
+[![GitHub](https://img.shields.io/github/license/akc3n/akc3n.page?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Contact
 

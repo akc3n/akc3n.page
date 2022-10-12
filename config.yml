@@ -2,6 +2,7 @@ baseURL: https://akc3n.page/
 languageCode: en-us
 title: akc3n.page
 theme: WonderMod
+copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
 enableRobotsTXT: true
 enableGitInfo: true
 
@@ -10,8 +11,9 @@ minify:
   minifyOutput: true
 
 params:
+  env: production
   author: akc3n
-  description: Just an ordinary human
+  description: Just an ordinary human. Love learning, puzzles & food!
   defaultTheme: dark
   disableThemeToggle: false
   ShowReadingTime: true
@@ -20,28 +22,32 @@ params:
   ShowWordCount: true
   ShowToc: true
   ShowRssButtonInSectionTermList: false
+  ShowFullTextinRSS: true
   ShowCodeCopyButtons: true
 
   assets:
     disableHLJS: true
     disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "akc3n"
+    text: "akc3n.page"
 
   profileMode:
     enabled: true
-    title: "akc3n's page" # optional default will be site title
+    title: "[me@akc3n.page ~]# _" # optional default will be site title
     subtitle: "Just an ordinary human. Love learning, puzzles & food!"
     imageUrl: "/images/avatar.png" # optional
-    imageTitle: "Just an ordinary human's profile picture" # optional
-      #imageWidth: 120 # custom size
-      #imageHeight: 120 # custom size
+      # imageTitle: "akc3n" # optional
     buttons:
       - name: Archive
         url: "/archives"
-      - name: Github
-        url: "https://github.com/akc3n"
+      - name: Links
+        url: "/links"
 
   socialIcons:
     - name: github
@@ -52,3 +58,79 @@ params:
       url: "https://twitter.com/JuriAksenov"
     - name: reddit
       url: "https://reddit.com/u/akc3n"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    
+  editPost:
+    URL: "https://github.com/akc3n/akc3n.page/blob/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary"]
+
+outputs:
+  home:
+    - HTML
+    - JSON # is necessary
+
+markup:
+    highlight:
+        style: dracula
+        noClasses: false
+        guessSyntax: true
+
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: about
+      weight: 10
+    - identifier: Archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: Links
+      name: Links
+      url: links
+      weight: 30
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 40
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 50
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: true
+    enableDNT: true
+    simple: false
+  youtube:
+    disable: true
+    privacyEnhanced: true

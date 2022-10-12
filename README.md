@@ -6,8 +6,11 @@
 
 - [Security](#security)
 - [Background](#background)
+- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## Security
 ![Security Headers](https://img.shields.io/security-headers?style=flat-square&url=https%3A%2F%2Fakc3n.page) ![Chromium HSTS preload](https://img.shields.io/hsts/preload/akc3n.page?style=flat-square) ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/akc3n.page?publish&style=flat-square)  
@@ -17,9 +20,14 @@ https://www.hardenize.com/report/akc3n.page/1665539089
 
 ## Background
 
+## Roadmap
+
 ## Contributing
 
 ## License
 
-[`CC-BY-SA-4.0`](LICENSE)  
-[![GitHub](https://img.shields.io/github/license/akc3n/akc3n.page?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
+[`Attribution-ShareAlike 4.0 International`](LICENSE) - [![GitHub](https://img.shields.io/github/license/akc3n/akc3n.page?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Contact
+
+## Acknowledgments 

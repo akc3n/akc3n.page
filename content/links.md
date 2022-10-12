@@ -11,3 +11,29 @@ ShowWordCount: false
 hidemeta: true
 ---
 
+## GrapheneOS
+- [`GrapheneOS`](https://grapheneos.org)
+- [`Features Overview`](https:/grapheneos.org/features)
+- [`Frequently Asked Questions`](https://grapheneos.org/faq)
+- [`Usage Guide`](https://grapheneos.org/usage)
+- [`Matrix`](https://app.element.io/#/room/#community:grapheneos.org)
+- [`Forum`](https://discuss.grapheneos.org)
+- [`Twitter Community`](https://twitter.com/i/communities/1530455827949273094)
+
+## Resources
+- [Knowledge base](https://github.com/Peter-Easton/GrapheneOS-Knowledge)
+- [GrapheneOS wiki](https://hub.libranet.de/wiki/graphene-os/wiki/Home)
+- [Android wiki](https://hub.libranet.de/wiki/and-priv-sec/wiki/Home)
+- [Technical guides](https://madaidans-insecurities.github.io/)
+- [Priv/sec KB](https://privsec.dev)
+- [Factual articles](https://wonderfall.dev/)
+
+## Links
+- https://matt.traudt.xyz/
+- https://seirdy.one/posts/
+- https://www.privacyguides.org/android/grapheneos-vs-calyxos/
+- https://sideofburritos.com/
+- http://www.youtube.com/thehatedone
+- https://qua3k.github.io/
+
+... add more from my bookmarks later

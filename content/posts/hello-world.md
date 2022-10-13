@@ -15,17 +15,6 @@ A have a place where I can layout my notes while presenting my findings in a str
 
 There will also be quite a bit of streamlined information on here that will not be my own writing, but instead direct copy and pastes with credited quotes and citations to important announcements and explanations from multiple platforms, related to GrapheneOS.
 
-## Inspirations
-
-My biggest inspiration and influence for security and privacy comes from the lead developer of the GrapheneOS project, [Daniel Micay](https://daniel.micay.dev). The massive amounts of hurdles and history Daniel has been/is dealing with and overcoming, while continuing to power through coding/development - is truly amazing. Thank you for being a positive role model in my life Daniel.
-
-Also, I would also like to give a shout out and a big thank you to my friend [Peter Easton](https://github.com/Peter-Easton/), whom is also part of the GrapheneOS project team. Your kind words of wisdom and the way you handle your tier-one support position with users in live chat, is very professional, polite, and empathetic. This has and is helping me progress my own personal development communication skills and a better understanding of emotional intelligence in action.
-
-A mention to a very good friend and inspiration of mine is [j43](https://github.com/j43cz/). Thank you for being there for me always and a blessing to have you in my life.
-
-> _**Shout out to all of my online friends who I am thankful to have in my life**_  
-*(w.i.p - need rewrite mention @ users to show appreciation)*
-
 ## Action
 
 I am part taking in providing educational comments and helping with correcting false information on Youtube, Reddit, Twitter, and Hacker News, as well as writing posts on this blog and working on a few things.  In support of the GrapheneOS project with facts regarding the malicious misinformation and false claims being spread by certain nefarious individuals and organizations.

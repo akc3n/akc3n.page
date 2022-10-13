@@ -1,7 +1,6 @@
 ---
 title: "About akc3n.page"
 date: 2022-10-12T03:22:29-07:00
-draft: true
 tags: ["about", "akc3n"]
 author: "akc3n"
 TocOpen: true

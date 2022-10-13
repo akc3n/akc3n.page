@@ -1,7 +1,6 @@
 ---
 title: "Gists"
 date: 2022-10-13T00:05:16-07:00
-draft: true
 tags: ["gists", "configs", "code"]
 author: "akc3n"
 TocOpen: true

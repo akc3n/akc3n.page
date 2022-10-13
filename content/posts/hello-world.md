@@ -1,7 +1,6 @@
 ---
 title: "Hello, world!"
 date: 2022-10-10T22:14:03-07:00
-draft: true
 tags: ["Hello World", "akc3n"]
 author: "akc3n"
 TocOpen: true

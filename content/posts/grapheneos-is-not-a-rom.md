@@ -1,7 +1,6 @@
 ---
 title: "GrapheneOS is not a ROM!"
 date: 2022-10-12T22:02:57-07:00
-draft: true
 tags: ["GrapheneOS", "Not a ROM"]
 author: "akc3n"
 TocOpen: true

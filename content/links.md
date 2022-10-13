@@ -29,11 +29,13 @@ hidemeta: true
 - [Factual articles](https://wonderfall.dev/)
 
 ## Links
+- https://tommytran.io/
 - https://matt.traudt.xyz/
 - https://seirdy.one/posts/
-- https://www.privacyguides.org/android/grapheneos-vs-calyxos/
+- https://privacyguides.org/android/grapheneos-vs-calyxos/
 - https://sideofburritos.com/
-- http://www.youtube.com/thehatedone
+- https://youtube.com/thehatedone
 - https://qua3k.github.io/
+- https://wonderfall.space/
 
 ... add more from my bookmarks later

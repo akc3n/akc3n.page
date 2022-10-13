@@ -11,7 +11,7 @@ ShowWordCount: false
 hidemeta: true
 ---
 
-> _**I'm just an ordinary human that loves to learn, solve puzzles, and eat food.**_
+> _**I'm just an ordinary human that loves to learn, solve puzzles, and eat food.**_   
 
 I spend a lot of time on the internet trying to *dig past all the misleading and/or dishonest marketing nonsense that mainstream news media outlets and 'technical' blogs making claims on security and privacy topics*. The misinformation is often misinterpreted by the vast majority, leading to more problems then solutions in today's society.
 

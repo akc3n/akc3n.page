@@ -6,7 +6,7 @@ author: "akc3n"
 TocOpen: true
 hidemeta: true
 description: "akc3n's gists"
-canonicalURL: "https://akc3n.page/links"
+canonicalURL: "https://akc3n.page/gists"
 hideSummary: false
 searchHidden: false
 ShowReadingTime: false

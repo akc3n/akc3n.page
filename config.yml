@@ -2,7 +2,7 @@ baseURL: https://akc3n.page/
 languageCode: en-us
 title: akc3n.page
 theme: WonderMod
-copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) © 2021-2022 akc3n.page'
 enableRobotsTXT: true
 enableGitInfo: true
 
@@ -12,18 +12,21 @@ minify:
 
 params:
   env: production
-  author: akc3n
+  title: akc3n.page
   description: Just an ordinary human. Love learning, puzzles & food!
-  defaultTheme: dark
+  keywords: [akc3n, Banking apps project, GrapheneOS]
+  author: akc3n
+  defaultTheme: auto
   disableThemeToggle: false
+
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowWordCount: true
-  ShowToc: true
-  ShowRssButtonInSectionTermList: false
-  ShowFullTextinRSS: true
   ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: true
+  ShowFullTextinRSS: true
 
   assets:
     disableHLJS: true
@@ -39,13 +42,15 @@ params:
 
   profileMode:
     enabled: true
-    title: "[me@akc3n.page ~]# _" # optional default will be site title
+    title: "akc3n.page" # optional default will be site title
     subtitle: "Just an ordinary human. Love learning, puzzles & food!"
     imageUrl: "/images/avatar.png" # optional
       # imageTitle: "akc3n" # optional
     buttons:
-      - name: Archive
-        url: "/archives"
+      - name: Posts
+        url: "/posts"
+      - name: Gists
+        url: "/gists"
       - name: Links
         url: "/links"
 
@@ -76,7 +81,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "summary"]
+    keys: ["title", "summary", "content"]
 
 outputs:
   home:
@@ -87,6 +92,7 @@ markup:
     highlight:
         style: dracula
         noClasses: false
+        lineNos: false
         guessSyntax: true
 
 menu:
@@ -95,21 +101,21 @@ menu:
       name: About
       url: about
       weight: 10
-    - identifier: Archive
-      name: Archive
-      url: /archives/
+    - identifier: Posts
+      name: Posts
+      url: /posts/
       weight: 20
+    - identifier: Gists
+      name: Gists
+      url: /gists/
+      weight: 30
     - identifier: Links
       name: Links
       url: links
-      weight: 30
+      weight: 40
     - identifier: Search
       name: Search
       url: /search/
-      weight: 40
-    - identifier: Tags
-      name: Tags
-      url: /tags/
       weight: 50
 
 privacy:

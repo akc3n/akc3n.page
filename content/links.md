@@ -21,13 +21,22 @@ ShowWordCount: false
 ## Resources
 
 | TYPE | DESCRIPTION | OWNER |
-| :--- | :--- | :---: |
+| :--- | :--- | ---: |
 | KB | [Collection of QA's](https://github.com/Peter-Easton/GrapheneOS-Knowledge) | [JollyRoger](https://github.com/Peter-Easton/) |
-| Wiki | [Community wiki](https://hub.libranet.de/wiki/graphene-os/wiki/Home) | dazinism |
-| Wiki | [Android priv-sec wiki](https://hub.libranet.de/wiki/and-priv-sec/wiki/Home) | dazinism |
-| Anlys | [Sec-priv evaluation articles](https://madaidans-insecurities.github.io/) | [madaidan](https://github.com/madaidans-insecurities) |
+| WIKI | [Community wiki](https://hub.libranet.de/wiki/graphene-os/wiki/Home) | [dazinism](https://github.com/dznsm) |
+| WIKI | [Android priv-sec wiki](https://hub.libranet.de/wiki/and-priv-sec/wiki/Home) | [dazinism](https://github.com/dznsm) |
+| ANLYS | [Sec-priv evaluation articles](https://madaidans-insecurities.github.io/) | [madaidan](https://github.com/madaidans-insecurities) |
 | KB | [Practical priv-sec advice](https://privsec.dev) | [tommy](https://tommytran.io/) |
-| Res | [Factual research articles](https://wonderfall.dev/) | [Wonderfall](https://github.com/wonderfall) |
+| RES| [Factual research articles](https://wonderfall.dev/) | [Wonderfall](https://github.com/wonderfall) |
+
+## Projects
+
+Compatibility list of banking apps that work on GrapheneOS.
+> This project was previously hosted on `akc3n.org`. (*Info in desc link*)
+
+| TYPE | DESCRIPTION | SITE | REPORT | SUBMIT |
+| :--- | :--- | :--- | :---: | :---: |
+| PROJ | Banking apps project | [privsec.dev/banking](https://privsec.dev/apps/banking-applications-compatibility-with-grapheneos/) | [Review](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) | [Form](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/new?assignees=&labels=&template=app_report.yml) |
 
 ## Links
 > *Ongoing WIP as time permits to go through my bookmarks to add more. Sorry if I forgot to add any friends at this time*

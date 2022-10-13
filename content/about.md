@@ -1,14 +1,19 @@
 ---
-title: "About"
+title: "About akc3n.page"
 date: 2022-10-12T03:22:29-07:00
-tags: ["about"]
-description: "[me@akc3n.page ~/about]#_"
+draft: true
+tags: ["about", "akc3n"]
+author: "akc3n"
+TocOpen: true
+hidemeta: true
+description: "Whois akc3n?"
 canonicalURL: "https://akc3n.page/about"
+hideSummary: false
+searchHidden: true
 ShowReadingTime: false
-ShowBreadCrumbs: false
+ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowWordCount: false
-hidemeta: true
 ---
 
 > _**I'm just an ordinary human that loves to learn, solve puzzles, and eat food.**_   

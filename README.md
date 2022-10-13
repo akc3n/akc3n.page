@@ -40,11 +40,6 @@ It is wrong on so many levels, morally and ethically, to say the least.
 
 ## Contributing
 
-## License
-
-[`Attribution-ShareAlike 4.0 International`](LICENSE)   
-[![GitHub](https://img.shields.io/github/license/akc3n/akc3n.page?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
-
 ## Contact
 
 [ matrix ] [`@akc3n:grapheneos.org`](https://matrix.org/#/@akc3n:grapheneos.org)
@@ -53,3 +48,8 @@ It is wrong on so many levels, morally and ethically, to say the least.
 
 - https://github.com/Wonderfall/
 - https://github.com/tommytran732/
+
+## License
+
+[CC BY-SA 4.0](LICENSE) © 2021-2022 akc3n.page
+

@@ -47,6 +47,8 @@ params:
     imageUrl: "/images/avatar.png" # optional
       # imageTitle: "akc3n" # optional
     buttons:
+      - name: Banking apps
+        url: https://privsec.dev/banking
       - name: Posts
         url: "/posts"
       - name: Gists
@@ -117,6 +119,10 @@ menu:
       name: Search
       url: /search/
       weight: 50
+    - identifier: Banking
+      name: Banking apps list
+      url: https://privsec.dev/banking
+      weight: 60
 
 privacy:
   disqus:

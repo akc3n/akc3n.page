@@ -14,3 +14,14 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: false
 ShowWordCount: false
 ---
+
+## DNS
+
+### Protect parked domain without email
+
+| HOSTNAME | TYPE | TTL | DATA |
+| :--- | :--- | :--- | :--- |
+| `<domain.tld> `| TXT | `600` | `"v=spf1 -all"` |
+| `*._domainkey` | TXT | `600` | `"v=DKIM1; p="` |
+| `_dmarc` | TXT | `600` | `"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"` |
+| `<domain.tld>` | MX | `600` | `0 .` |

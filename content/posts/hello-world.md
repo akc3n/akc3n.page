@@ -1,9 +1,24 @@
 ---
-title: "Hello World"
+title: "Hello, world!"
 date: 2022-10-10T22:14:03-07:00
+draft: true
+tags: ["Hello World", "akc3n"]
+author: "akc3n"
+TocOpen: true
+hidemeta: false
+description: "Hola, bonjour, guten tag, salve, nǐ hǎo, asalaam alaikum, olá, konnichiwa, anyoung haseyo, zdravstvuyte, namaste, xin chào, shalom!"
+canonicalURL: "https://akc3n.page/posts/hello-world/"
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
 ---
 
 Welcome to my personal page, where you will find streamlined collections of information from multiple platforms related to GrapheneOS and things I'm passionate about.
+
+## Introduction
 
 I spend a lot of time on the internet trying to dig past all the misleading and/or dishonest marketing nonsense that mainstream news media outlets and ‘technical’ blogs making claims on security and privacy topics. The information is often misinterpreted by the vast majority, leading to more problems then solutions in today’s society.
 

@@ -7,7 +7,7 @@ author: "akc3n"
 TocOpen: true
 hidemeta: false
 description: "<add desc>"
-canonicalURL: "https://akc3n.page/posts/<name of md>/"
+canonicalURL: "https://akc3n.page/posts/" "{{ replace .Name "-" " " | title }}"
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true

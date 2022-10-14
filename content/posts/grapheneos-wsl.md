@@ -15,13 +15,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-> **Author of guide is no longer on GitHub, I did NOT write this guide, nor do I take credit for it.**
-
-# GrapheneOS WSL
-
-Building GrapheneOS on Arch Linux WSL2 w/WSLg (Windows 11 only)
+# Introduction
 
 This guide only mentions Arch Linux as it's the only good alternative to building AOSP on besides Ubuntu. It utilises Docker Desktop for the Arch Linux image as it's very close to stock Arch Linux instead of using tools like ArchWSL which are not very close to stock Arch Linux. Docker Desktop uses the official Arch Linux Docker image.
+
+> **NOTE: Author of guide is no longer on GitHub, I did NOT write this guide, nor do I take credit for it.**
 
 <hr>
 

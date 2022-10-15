@@ -1,8 +1,8 @@
 ---
-title: "Banking Apps Project"
+title: "Banking apps project"
 date: 2022-10-13T03:39:13-07:00
 draft: true
-tags: ["Banking apps", "SafetyNet", "Compatibility", "GrapheneOS", "Play Integrity API"]
+tags: ["Banking apps project", "SafetyNet", "Compatibility", "GrapheneOS", "Play Integrity API"]
 author: "akc3n"
 TocOpen: true
 hidemeta: false
@@ -14,11 +14,12 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
+weight: 1
 ---
 
-[The Banking Project](/projects/banking) is a maintained list of tested banking apps that do not enforce [SafetyNet](https://grapheneos.org/articles/attestation-compatibility-guide) and work with [GrapheneOS](https://grapheneos.org/)'s [compatibility layer](https://grapheneos.org/usage#sandboxed-google-play).
+[The banking apps project](https://privsec.dev/banking) is a maintained list of tested banking apps that do not enforce [SafetyNet](https://grapheneos.org/articles/attestation-compatibility-guide) and work with [GrapheneOS](https://grapheneos.org/)'s [compatibility layer](https://grapheneos.org/usage#sandboxed-google-play).
 
-Users are able to view the [list](https://akc3n.org/projects/banking/#list-of-banking-apps) of currently submitted [reports](https://github.com/akc3n/banking/issues?q=is%3Aissue+is%3Aclosed) for banking apps that work on [GrapheneOS](https://grapheneos.org/).    
+Users are able to view the [list](https://privsec.dev/banking) of currently submitted [reports](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) for banking apps that work on [GrapheneOS](https://grapheneos.org/).    
 
 Users may also submit a report of the banking app they tested, what features work and which don't. 
 An issue form template was created via this projects issue tracker by [Zanthed](https://github.com/Zanthed) (Thanks)

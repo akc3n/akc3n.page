@@ -28,16 +28,16 @@ ShowWordCount: false
 
 ## EXIF
 
-`exiftool -a -u -g1 -ee3 -api RequestAll=3 <filename>.{jpg,png,gif,webp}`
+`exiftool -a -u -g1 -ee3 -api RequestAll=3 picture.jpg`
 
 Reading meta data information from a file using `exiftool`. The [application documentation](https://exiftool.org/exiftool_pod.html#READING-EXAMPLES) states the following:
 
 > Print all meta information in an image, including duplicate and unknown tags, sorted by group (for family 1). For performance reasons, this command may not extract all available metadata. (Metadata in embedded documents, metadata extracted by external utilities, and metadata requiring excessive processing time may not be extracted). Add -ee3 and -api RequestAll=3 to the command to extract absolutely everything available.
 
-Created a function `chckheader()` added to `$ZSH_CUSTOM/function.zsh`.
+Created a function `chckexif()` added to `$ZSH_CUSTOM/function.zsh`.
 
 ```bash
-function chckheader () {
-    curl "$@" --silent --head --write-out '%{http_code}' | pygmentize -g # json_pp # | xml_pp | pygmentize -l xml
+function chckexif(){
+    exiftool -a -u -g1 -ee3 -api RequestAll=3 "$@"
 }
 ```

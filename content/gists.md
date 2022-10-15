@@ -28,7 +28,7 @@ ShowWordCount: false
 
 ## EXIF
 
-`exiftool -a -u -g1 -ee3 -api RequestAll=3 IMG_20220723_114829_848.jpg`
+`exiftool -a -u -g1 -ee3 -api RequestAll=3 <filename>.{jpg,png,gif,webp}`
 
 Reading meta data information from a file using `exiftool`. The [application documentation](https://exiftool.org/exiftool_pod.html#READING-EXAMPLES) states the following:
 

@@ -48,12 +48,17 @@ A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-Wond
 
 ### Internet.nl report
 
-Website [test result reports](https://internet.nl/site/akc3n.page/1736490/)'s score of **`100%`**.  
-Site is now listed on [Internet.nl](https://internet.nl)'s [Hall of Fame](https://internet.nl/halloffame/web/)!
+[![Internet.nl](https://internet.nl/static/embed-badge-websitetest.svg)](https://internet.nl)
+
+[Full Report](https://internet.nl/site/akc3n.page/1736494/) for `akc3n.page` website test by [Internet.nl](https://internet.nl).
 
 ### Hardenize.com report
 
-Security for this website's [test result reports](https://www.hardenize.com/report/akc3n.page/1665539089)'s score is **`100%`**.
+| STATUS | TEST RESULT |
+| :--- | :--- |
+| <a href="https://www.hardenize.com/report/akc3n.page?summary" target="_blank" referrerpolicy="origin" rel="noopener"><img referrerpolicy="origin" border="0" src="https://badge.hardenize.com/v2/images/hardenize-badge-akc3n.page.png" width="70" height="110" hspace="0" vspace="0" alt="Hardenize Badge"></a> | ✔ HTTPS <br> ✔ HTTPS Redirect <br> ✔ HTTP Strict Transport Security <br> ✔ HSTS Preloaded <br> ✔ Content Security Policy |
+
+[Full report](https://www.hardenize.com/report/akc3n.page) for `akc3n.page` security test by [Hardenize](https://hardenize.com).
 
 ### Source code
 

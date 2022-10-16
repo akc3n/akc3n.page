@@ -47,8 +47,9 @@ Significantly important information that provides factual knowledge with persona
 
 ## Links
 > *Ongoing WIP as time permits to go through my bookmarks to add more. Sorry if I forgot to add any friends at this time*
+<!-- FIXME Rewrite description quote above and format accordingly-->
 
-
+<!-- TODO Create table and format accordingly-->
 - https://tommytran.io/
 - https://matt.traudt.xyz/
 - https://seirdy.one/posts/

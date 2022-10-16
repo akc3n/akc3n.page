@@ -96,7 +96,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "summary", "content"]
+    keys: ["title", "summary"]
 
 outputs:
   home:

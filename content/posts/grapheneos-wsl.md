@@ -2,7 +2,7 @@
 title: "GrapheneOS WSL"
 date: 2022-10-13T19:37:58-07:00
 tags: ["GrapheneOS", "WSL", "ArchLinux", "Windows", "Build"]
-author: "akc3n"
+author: "June"
 TocOpen: true
 hidemeta: false
 description: "Building GrapheneOS on Arch Linux WSL2 w/WSLg (Windows 11 only)"
@@ -19,7 +19,7 @@ ShowWordCount: true
 
 This guide only mentions Arch Linux as it's the only good alternative to building AOSP on besides Ubuntu. It utilises Docker Desktop for the Arch Linux image as it's very close to stock Arch Linux instead of using tools like ArchWSL which are not very close to stock Arch Linux. Docker Desktop uses the official Arch Linux Docker image.
 
-> **NOTE: Author of guide is no longer on GitHub, I did NOT write this guide, nor do I take credit for it.**
+> **NOTE: Author of this paper is my friend, June. I do not take any credit for this. I am simply hosting it as June is no longer on GitHub.**
 
 <hr>
 
@@ -197,7 +197,7 @@ We need to create a wsl.conf due to:
 
 3. Enter:
 
-```
+```Ini
 [automount]
 
 options = "case=dir"
@@ -229,7 +229,7 @@ Save.
 
 9. Enter:
 
-```
+```Ini
 [wsl2]
 
 swap = 70G
@@ -260,7 +260,7 @@ It's possible KVM may not work still because it can't access `/dev/kvm` despite 
 
 If you want to automatically set `/dev/kvm` to 777, you can set it as a WSL2 startup command in `/etc/wsl.conf`:
 
-```
+```Ini
 [boot]
 command = chmod 777 /dev/kvm
 ```

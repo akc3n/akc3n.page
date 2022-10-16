@@ -1,11 +1,11 @@
 ---
-title: "Gists"
+title: "Gists, snippets and code"
 date: 2022-10-13T00:05:16-07:00
 tags: ["gists", "configs", "code"]
 author: "akc3n"
 TocOpen: true
 hidemeta: true
-description: "akc3n's gists"
+description: "Collection of useful information that I find valuable"
 canonicalURL: "https://akc3n.page/gists"
 hideSummary: false
 searchHidden: false
@@ -18,6 +18,7 @@ ShowWordCount: false
 ## DNS
 
 ### Protect parked domain without email
+<!-- TODO Add small description and include citations-->
 
 | HOSTNAME | TYPE | TTL | DATA |
 | :--- | :--- | :--- | :--- |
@@ -26,13 +27,13 @@ ShowWordCount: false
 | `_dmarc` | TXT | `600` | `"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"` |
 | `<domain.tld>` | MX | `600` | `0 .` |
 
+---
+
 ## EXIF
 
-`exiftool -a -u -g1 -ee3 -api RequestAll=3 picture.jpg`
-
-Reading meta data information from a file using `exiftool`. The [application documentation](https://exiftool.org/exiftool_pod.html#READING-EXAMPLES) states the following:
-
-> Print all meta information in an image, including duplicate and unknown tags, sorted by group (for family 1). For performance reasons, this command may not extract all available metadata. (Metadata in embedded documents, metadata extracted by external utilities, and metadata requiring excessive processing time may not be extracted). Add -ee3 and -api RequestAll=3 to the command to extract absolutely everything available.
+```bash
+exiftool -a -u -g1 -ee3 -api RequestAll=3 picture.jpg
+```
 
 Created a function `chckexif()` added to `$ZSH_CUSTOM/function.zsh`.
 
@@ -41,3 +42,7 @@ function chckexif(){
     exiftool -a -u -g1 -ee3 -api RequestAll=3 "$@"
 }
 ```
+
+Reading meta data information from a file using `exiftool`. The [application documentation](https://exiftool.org/exiftool_pod.html#READING-EXAMPLES) states the following:
+
+> _Print all meta information in an image, including duplicate and unknown tags, sorted by group (for family 1). For performance reasons, this command may not extract all available metadata. (Metadata in embedded documents, metadata extracted by external utilities, and metadata requiring excessive processing time may not be extracted). Add -ee3 and -api RequestAll=3 to the command to extract absolutely everything available._

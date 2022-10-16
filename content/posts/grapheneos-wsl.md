@@ -19,17 +19,6 @@ ShowWordCount: true
 
 This guide only mentions Arch Linux as it's the only good alternative to building AOSP on besides Ubuntu. It utilises Docker Desktop for the Arch Linux image as it's very close to stock Arch Linux instead of using tools like ArchWSL which are not very close to stock Arch Linux. Docker Desktop uses the official Arch Linux Docker image.
 
-```prolog
-commit a8d58587976f9c479f30cb4a69b032af412de70f
-Author: June <june@******.**>
-Date: Sunday, May 1, 2022
-Note: Author of this paper is my friend, June. 
-        I do not take any credit for this. 
-        I am simply hosting it as June is no longer on GitHub. 
-        Several people have asked me for this guide since 
-        the original repo does not exist anymore.
-```
-
 <hr>
 
 ## AOSP and GrapheneOS dependencies:
@@ -128,7 +117,11 @@ Note: Author of this paper is my friend, June.
 
 1. Using PowerShell, pull the official Arch Linux image: `docker pull archlinux`
 
-2. Run the image with the name `archlinux-wsl` to setup the base image: `docker run -it --name archlinux-wsl archlinux`
+2. Run the image with the name `archlinux-wsl` to setup the base image:  
+
+```powershell
+docker run -it --name archlinux-wsl archlinux
+```
 
 3. Perform the following setup commands:
 
@@ -152,9 +145,17 @@ grpconv
 exit
 ```
 
-4. Export the docker container's state to a tar file: `docker export --output archlinux-image-files.tar archlinux-wsl`
+4. Export the docker container's state to a tar file:   
 
-5. Import the container files to a drive you have more than 500GB on (can be your C drive if you have that space): `wsl --import archlinux <directory to store the files> .\archlinux-image-files.tar`
+```powershell
+docker export --output archlinux-image-files.tar archlinux-wsl
+```
+
+5. Import the container files to a drive you have more than 500GB on (can be your C drive if you have that space): 
+
+```powershell
+wsl --import archlinux <directory to store the files> .\archlinux-image-files.tar
+```
 
 6. Verify Arch Linux is using WSL version 2: `wsl -l -v`
 
@@ -202,7 +203,11 @@ We need to create a wsl.conf due to:
 
 1. Open Arch Linux
 
-2. Create and edit the VM's wsl.conf: `sudo vim /etc/wsl.conf`
+2. Create and edit the VM's wsl.conf:  
+
+```bash
+sudo vim /etc/wsl.conf
+```
 
 3. Enter:
 
@@ -230,11 +235,19 @@ Save.
 
 5. Remove everything and enter `nameserver <DNS server of your choice>`
 
-6. Because we don't have proper systemd (for resolved and resolvconf), the file gets cleared and never saves. Lock it from all modifications to save it permanently: `sudo chattr +i /etc/resolv.conf`
+6. Because we don't have proper systemd (for resolved and resolvconf), the file gets cleared and never saves. Lock it from all modifications to save it permanently:  
+
+```bash
+sudo chattr +i /etc/resolv.conf
+```
 
 7. Exit and shutdown WSL: `wsl --shutdown`
 
-8. Create a system `.wslconfig` in your Windows user directory: `C:\Users\<main user>\.wslconfig`
+8. Create a system `.wslconfig` in your Windows user directory: 
+
+```powershell
+C:\Users\<main user>\.wslconfig
+```
 
 9. Enter:
 
@@ -282,7 +295,11 @@ You can now follow https://grapheneos.org/build like you would on normal Linux e
 
 You (might) need to disable the GPU (yeah, weird) to get high performance 60 FPS in the Android Virtual Device's config.
 
-1. Assuming you built emulator successfully at this point navigate to the output, example: `/home/herbcookie/grapheneos-12.1/out/target/product/emulator_x86_64`
+1. Assuming you built emulator successfully at this point navigate to the output, example:  
+
+```bash
+/home/herbcookie/grapheneos-12.1/out/target/product/emulator_x86_64
+```
 
 2. Edit `config.ini`
 
@@ -291,3 +308,18 @@ You (might) need to disable the GPU (yeah, weird) to get high performance 60 FPS
 Then start emulator again. You should have high performance, extremely fluid, 60 FPS. It might also fix a possible segfault.
 
 It's possible this isn't necessary and I suggest just trying to run emulator as-is before deciding if you need it. On my old machine (i7-8700k + NVIDIA GTX 1070) this was mandatory, but on my new machine (Ryzen 9 3900XT, NVIDIA RTX 3080) this was not needed.
+
+---
+
+## Acknowledgment
+
+Thanks and credit to author of this article:
+
+```prolog
+commit a8d58587976f9c479f30cb4a69b032af412de70f
+Author: June <june@******.**>
+Date: Sunday, May 1, 2022
+```
+### Note
+
+Author of this paper is my friend, June. I do not take any credit for this. I am simply hosting it as June is no longer on GitHub. Several people have asked me for this guide since the original repo does not exist anymore.

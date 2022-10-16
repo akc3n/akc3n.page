@@ -19,7 +19,16 @@ ShowWordCount: true
 
 This guide only mentions Arch Linux as it's the only good alternative to building AOSP on besides Ubuntu. It utilises Docker Desktop for the Arch Linux image as it's very close to stock Arch Linux instead of using tools like ArchWSL which are not very close to stock Arch Linux. Docker Desktop uses the official Arch Linux Docker image.
 
-> **NOTE: Author of this paper is my friend, June. I do not take any credit for this. I am simply hosting it as June is no longer on GitHub.**
+```prolog
+commit a8d58587976f9c479f30cb4a69b032af412de70f
+Author: June <june@******.**>
+Date: Sunday, May 1, 2022
+Note: Author of this paper is my friend, June. 
+        I do not take any credit for this. 
+        I am simply hosting it as June is no longer on GitHub. 
+        Several people have asked me for this guide since 
+        the original repo does not exist anymore.
+```
 
 <hr>
 

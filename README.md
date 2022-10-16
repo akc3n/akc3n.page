@@ -17,14 +17,27 @@ The purpose of my website is to have a place where I can layout my notes while p
 - [Acknowledgments](#acknowledgments)
 
 ## Security
+
 ![Security Headers](https://img.shields.io/security-headers?style=flat-square&url=https%3A%2F%2Fakc3n.page) ![Chromium HSTS preload](https://img.shields.io/hsts/preload/akc3n.page?style=flat-square)   
 
-- https://internet.nl/site/akc3n.page/1736490/   
-- https://www.hardenize.com/report/akc3n.page/1665539089
+Static HTML and CSS website powered by [Hugo](https://gohugo.io/).   
+A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-WonderMod) was chosen. Designed with strong CSP headers in mind - featuring removal of inline JavaScript and using pure CSS. WonderMod is a fork of an original theme called [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+
+[![Internet.nl](https://internet.nl/static/embed-badge-websitetest.svg)](https://internet.nl)
+
+[Full Report](https://internet.nl/site/akc3n.page/1736494/) for `akc3n.page` website test by [Internet.nl](https://internet.nl). 
+
+### Hardenize.com
+
+| STATUS | TEST RESULT |
+| :---: | :--- |
+| <a href="https://www.hardenize.com/report/akc3n.page?summary" target="_blank" referrerpolicy="origin" rel="noopener"><img referrerpolicy="origin" border="0" src="https://badge.hardenize.com/v2/images/hardenize-badge-akc3n.page.png" width="70" height="110" hspace="0" vspace="0" alt="Hardenize Badge"></a> | ✔ HTTPS <br> ✔ HTTPS Redirect <br> ✔ HTTP Strict Transport Security <br> ✔ HSTS Preloaded <br> ✔ Content Security Policy |
+
+[Full report](https://www.hardenize.com/report/akc3n.page) for `akc3n.page` security test by [Hardenize](https://hardenize.com).
 
 ## Background
 
-I am part taking in providing educational comments and helping with correcting false information on Youtube, Reddit, Twitter, and Hacker News, as well as writing posts on this blog and working on my projects. In support of the GrapheneOS project with facts regarding the malicious misinformation and false claims being spread by certain nefarious individuals and organizations.   
+I enjoy taking part in providing educational comments and helping with correcting false information on Youtube, Reddit, Twitter, and Hacker News, as well as writing posts on this blog and working on my projects. In support of the GrapheneOS project with facts regarding the malicious misinformation and false claims being spread by certain nefarious individuals and organizations.   
 
 They are actively orchestrating and engaging directly in some cases and through proxies, as well as sock-puppet alternative accounts, manipulating others and encouraging to part take in incredibly underhanded attacks while trying to undermine and harm the GrapheneOS project, its developers, contributors, community members and donators.  
 
@@ -48,8 +61,10 @@ It is wrong on so many levels, morally and ethically, to say the least.
 
 - https://github.com/Wonderfall/
 - https://github.com/tommytran732/
+- https://github.com/Peter-Easton/
+- June
 
 ## License
 
-[CC BY-SA 4.0](LICENSE) © 2021-2022 akc3n.page
+akc3n.page [CC BY-SA 4.0](LICENSE) 2020-2022
 

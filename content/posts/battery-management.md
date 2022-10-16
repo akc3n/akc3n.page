@@ -83,5 +83,5 @@ Date: Friday, April 9, 2021
 ```
 ### Note
 
-Author of this [gist article](https://gist.githubusercontent.com/Peter-Easton/4982f66e93387e02dd2c1d677d71f4f2/raw/4edf9a41ca3a4d053c8ad7bf365f97c923f01c61/battery-management.txt) is a dear and close friend, [JollyRoger](https://github.com/Peter-Easton/). I do not take any credit for this. I am simply hosting the original Gist as I find it valuable and this makes it easier to share. I've also linked his valuable work in my [resource section](http://localhost:1313/links/#community-driven) for GrapheneOS.
+Author of this [gist article](https://gist.githubusercontent.com/Peter-Easton/4982f66e93387e02dd2c1d677d71f4f2/raw/4edf9a41ca3a4d053c8ad7bf365f97c923f01c61/battery-management.txt) is a dear and close friend, [JollyRoger](https://github.com/Peter-Easton/). I do not take any credit for this. I am simply hosting the original Gist as I find it valuable and this makes it easier to share. I've also linked his valuable work in my [resource section](http://akc3n.page/links/#community-driven) for GrapheneOS.
 

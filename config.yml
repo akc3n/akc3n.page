@@ -2,7 +2,7 @@ baseURL: https://akc3n.page/
 languageCode: en-us
 title: akc3n's note pages
 theme: WonderMod
-copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) © 2020-2022 akc3n.page'
+copyright: 'akc3n.page [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 2020-2022 [LICENSE](https://akc3n.page/LICENSE) '
 enableRobotsTXT: true
 enableGitInfo: true
 

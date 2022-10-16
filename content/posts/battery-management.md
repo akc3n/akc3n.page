@@ -33,9 +33,9 @@ Back in 2005, gadgets with built-in lithium batteries, did not have their own on
 
 It's not 2005 anymore.
 
-Sixteen years later, phones with built-in batteries have their own computers onboard the computer, which can take into account the number of charge cycles the battery has undergone and automatically reallocate overprovisioning as required to ensure they automatically and transparently set the charging and cutoff thresholds to give the best health of the battery over time. This makes the old school of thought of charging to 80% obsolete.
+Sixteen years later, phones with built-in batteries have their own computers onboard the device, which can take into account the number of charge cycles the battery has undergone and automatically reallocate overprovisioning as required to ensure they automatically and transparently set the charging and cutoff thresholds to give the best health of the battery over time. This makes the old school of thought of charging to 80% obsolete.
 
-Not only that, but when your phone's battery is reported at 100% and charging, the battery enters idle maintenance, which ensures that the battery is not going to self-discharge, without overcharging it. In this state, the phone can remain online and be powered by off external power from USB, rather than using the battery. This is important to the health of your battery by reducing the amount of demand you're placing on it.
+Not only that, but when your phone's battery is reported at 100% and charging, the battery enters idle maintenance, which ensures that the battery is not going to self-discharge, without overcharging it. In this state, the phone can remain on and be powered off external power from USB, rather than using the battery. This is important to the health of your battery by reducing the amount of demand you're placing on it.
 
 So the long story short, if you decide you want to charge to only 80%, and then unplug your phone once it's reached that threshold, you're not doing your battery any favours; it's not making use of idle maintenance, and instead of running on external power on idle maintenance, the demand is now being placed on the battery, and you're using valuable charge cycles when otherwise your phone would be running on external power.
 
@@ -74,7 +74,7 @@ I didn't mention Adaptive Charging, which is new to the Pixel 5. This is because
 
 ## Acknowledgment
 
-Thanks and credit to author of this article:
+Thanks and credit to author of this [gist article](https://gist.githubusercontent.com/Peter-Easton/4982f66e93387e02dd2c1d677d71f4f2/raw/4edf9a41ca3a4d053c8ad7bf365f97c923f01c61/battery-management.txt):
 
 ```prolog
 commit 4edf9a41ca3a4d053c8ad7bf365f97c923f01c61
@@ -83,5 +83,5 @@ Date: Friday, April 9, 2021
 ```
 ### Note
 
-Author of this paper is my friend, JollyRoger. I do not take any credit for this. I am simply hosting the original Gist as I find it valuable and this makes it easier to share.
+Author of this [gist article](https://gist.githubusercontent.com/Peter-Easton/4982f66e93387e02dd2c1d677d71f4f2/raw/4edf9a41ca3a4d053c8ad7bf365f97c923f01c61/battery-management.txt) is a dear and close friend, [JollyRoger](https://github.com/Peter-Easton/). I do not take any credit for this. I am simply hosting the original Gist as I find it valuable and this makes it easier to share. I've also linked his valuable work in my [resource section](http://localhost:1313/links/#community-driven) for GrapheneOS.
 

@@ -29,7 +29,7 @@ Living in the heart of the [Okanagan Valley](https://en.wikipedia.org/wiki/Okana
 I am also a community moderator and part of the GrapheneOS project team. I use [GrapheneOS](https://grapheneos.org) as my daily driver. I love the [Secure Camera](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play&hl=en_CA&gl=US) [app](https://github.com/GrapheneOS/platform_external_Camera) to [capture the special moments](https://www.flickr.com/people/akc3n/) in life, with the best possibly results from my trips and outdoor experiences. While at the same time, keeping my privacy in tact and secure.
 
 
-### Purpose ✍ akc3n.page
+### Purpose↛ akc3n.page
 
 `$ whatis akc3n.page`   
 
@@ -39,7 +39,7 @@ I decided to gather and collect as much in depth educational knowledge and techn
 
 The purpose of my website is to have a place where I can layout my notes while presenting my findings in a structured and organized format; providing citations and resources at the same time. This also enables me to have quick accessibility, the ability to easily share the information during discussions on topics being covered in real-time, and to streamline my personal development growth in the subjects that I'm passionate about.
 
-## Website ☂ akc3n.page
+## Website↛ akc3n.page
 
 `$ whois akc3n.page`
 
@@ -49,6 +49,12 @@ A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-Wond
 ### Internet.nl report
 
 [![Internet.nl](/images/embed-badge-websitetest.svg)](https://internet.nl)
+
+✔ Good: passed all subtests   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇒ full score in test category  
+✔ Good: pass on REQUIRED, RECOMMENDED or OPTIONAL subtest  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇒ first: full score   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇒ latter two: no score impact
 
 [Full Report](https://internet.nl/site/akc3n.page/1736494/) for `akc3n.page` website test by [Internet.nl](https://internet.nl).
 

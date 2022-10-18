@@ -15,6 +15,20 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
+## Sieve e-mail filtering
+
+Sieve filter to reject non-encrypted E-mail(s) when using [Protonmail's custom domain](https://proton.me/support/sieve-advanced-custom-filters) by checking `X-Pm-Content-Encryption` header for end-to-end encryption and respond with an automated message
+
+```sieve
+require ["reject", "imap4flags", "envelope"]; 
+if allof (
+    envelope :domain "to" "example.ca",
+    not header :matches "X-Pm-Content-Encryption" "end-to-end"
+) { 
+    reject "Input your response reason for rejecting recipients mail.";
+}
+```
+
 ## DNS
 
 ### Protect parked domain without email

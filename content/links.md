@@ -32,6 +32,7 @@ Significantly important information that provides factual knowledge with persona
 | ANLYS | [Sec-priv evaluation articles](https://madaidans-insecurities.github.io/) | [madaidan](https://github.com/madaidans-insecurities) | [Firefox & Chromium](https://madaidans-insecurities.github.io/firefox-chromium.html) |
 | KB | [Practical priv-sec advice](https://privsec.dev) | [tommy](https://tommytran.io/) | [Badness enumeration](https://privsec.dev/knowledge/badness-enumeration/) |
 | RES| [Factual research articles](https://wonderfall.dev/) | [Wonderfall](https://github.com/wonderfall) | [F-Droid insecurities](https://wonderfall.dev/fdroid-issues/) |
+| KB | [Resources and guides](https://www.privacyguides.org/basics/threat-modeling/) | [PrivacyGuides](https://github.com/orgs/privacyguides/people) | [GrapheneOS and calyxos](https://www.privacyguides.org/android/grapheneos-vs-calyxos/) |
 
 ### Supporting subprojects
 
@@ -65,7 +66,6 @@ Significantly important information that provides factual knowledge with persona
 ## AOSP related
 
 - https://source.android.com/docs/devices/admin/multi-user
-
 
 ---
 

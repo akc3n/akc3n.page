@@ -2,7 +2,7 @@
 Privacy & security related collection of information related to GrapheneOS and things I'm passionate about
 ---
 
-[![Netlify](https://img.shields.io/netlify/63449910-c901-4877-970c-ae0439437e83?style=flat-square)](https://app.netlify.com/sites/akc3n-page/deploys)   
+[![Netlify](https://img.shields.io/netlify/63449910-c901-4877-970c-ae0439437e83?style=flat-square)](https://app.netlify.com/sites/akc3n-page/deploys) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)  
 
 The purpose of my website is to have a place where I can layout my notes while presenting my findings in a structured and organized format; providing citations and resources at the same time. This also allows me to have easier access to and more easily share the information during discussions on topics being covered in real-time, and to streamline my personal development growth in the subjects that I'm passionate about.
 
@@ -18,16 +18,20 @@ The purpose of my website is to have a place where I can layout my notes while p
 
 ## Security
 
-![Security Headers](https://img.shields.io/security-headers?style=flat-square&url=https%3A%2F%2Fakc3n.page) ![Chromium HSTS preload](https://img.shields.io/hsts/preload/akc3n.page?style=flat-square)   
+[![Security Headers](https://img.shields.io/security-headers?style=flat-square&url=https%3A%2F%2Fakc3n.page)](https://securityheaders.com/?q=akc3n.page&followRedirects=on) [![Chromium HSTS preload](https://img.shields.io/hsts/preload/akc3n.page?style=flat-square)](https://hstspreload.org/?domain=akc3n.page)   
 
 Static HTML and CSS website powered by [Hugo](https://gohugo.io/).   
 A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-WonderMod) was chosen. Designed with strong CSP headers in mind - featuring removal of inline JavaScript and using pure CSS. WonderMod is a fork of an original theme called [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
-[![Internet.nl](https://internet.nl/static/embed-badge-websitetest.svg)](https://internet.nl)
+### Internet.nl modern standards
 
-[Full Report](https://internet.nl/site/akc3n.page/1736494/) for `akc3n.page` website test by [Internet.nl](https://internet.nl). 
+| STATUS | TEST RESULT |
+| :---: | :--- |
+| [![Internet.nl](https://internet.nl/static/embed-badge-websitetest.svg)](https://internet.nl) | ✔ Good: passed all subtests <br> ✔ Good: pass REQUIRED, RECOMMENDED or OPTIONAL |
 
-### Hardenize.com
+[Full report](https://internet.nl/site/akc3n.page/1736494/) for `akc3n.page` website test by [Internet.nl](https://internet.nl). 
+
+### Hardenize.com web security
 
 | STATUS | TEST RESULT |
 | :---: | :--- |
@@ -51,7 +55,12 @@ It is wrong on so many levels, morally and ethically, to say the least.
 
 ## Roadmap
 
+- [ ] USBDevice error flowchart diagram solution to common installation issue(s).
+- [ ] Matrix meta data examples of e2ee.
+
 ## Contributing
+
+Feel free to [open an issue](https://github.com/akc3n/akc3n.page/issues/new) or [submit a PR](https://github.com/akc3n/akc3n.page/compare).
 
 ## Contact
 

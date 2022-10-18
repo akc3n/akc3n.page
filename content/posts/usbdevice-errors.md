@@ -24,38 +24,54 @@ _**Work in progress! Updating this as time permits. Once complete, I will be add
 
 `Error: Failed to execute 'open' on 'USBDevice': Access denied`
 
+### Definition
+
 What this means is that `udev-rules` have not been [installed](https://grapheneos.org/install/web#flashing-as-non-root).
 > USB devices cannot be used as non-root without udev rules for each type of device
 
-**Solution**:  
+### Solution
+
 - Arch Linux: `pacman android-udev`
 - Debian/Ubuntu based distros: `apt install android-sdk-platform-tools-common`  
 - Reboot the computer
 
 > Connect the phone to the computer. On Linux, you'll need to do this again if you didn't have the udev rules set up when you connected it.
 
-**Note**: Pop!_OS has no known fix
+### Note
+
+Pop!_OS has no known fix
+
+---
 
 ## Unable to claim interface
 
 `Error: Failed to execute 'claimInterface' on 'USBDevice': Unable to claim interface`
 
+---
+
 ## Write the product
 
 `Error: Failed to execute 'transferOut' on 'USBDevice': Write the product`
+
+---
 
 ## No device selected
 
 `Error: Failed to execute unlocking bootloader on USBDevice: No device selected`
 
+---
+
 ## Array buffer allocation
 
 `Error: Array buffer allocation failed`
 
+### Definition
+
 What this means is that your phone or device has ran [out of memory](https://grapheneos.org/install/web#prerequisites)!
 > _You should have at least 2GB of free memory available and 32GB of free storage space._
 
-**Solution**:  
+### Solution
+
 - Reboot the installer phone or use a different device or PC.
 - Reboot the installee phone back into the bootloader.
 

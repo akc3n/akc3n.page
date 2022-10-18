@@ -44,7 +44,7 @@ Significantly important information that provides factual knowledge with persona
 | # | TYPE | DESCRIPTION | SITE | REPORT | SUBMIT |
 | :-: | :--- | :--- | :--- | :---: | :---: |
 | 1 | PROJ | Banking apps project | [privsec.dev/banking](https://privsec.dev/apps/banking-applications-compatibility-with-grapheneos/) | [Review](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) | [Form](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/new?assignees=&labels=&template=app_report.yml) |
-| 2 | GIST | USBDevice error guide | akc3n.page/`<CNA>` | `<CNA>` | `<CNA>` |
+| 2 | POST | USBDevice error guide | [akc3n.page/usbdevice](https://akc3n.page/usbdevice) | `NA` | `NA` |
 
 ## Links
 > *Ongoing WIP as time permits to go through my bookmarks to add more. Sorry if I forgot to add any friends at this time*
@@ -78,6 +78,7 @@ Significantly important information that provides factual knowledge with persona
 - PROJ - Project
 - KB - Knowledge base
 - ANLYS - Analysis
+- NA - Not applicable
 
 [Source](https://www.allacronyms.com/)
 

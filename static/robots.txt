@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://akc3n.page/sitemap.xml

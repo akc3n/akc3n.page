@@ -1,5 +1,5 @@
 # akc3n.page
-Privacy & security related collection of information related to GrapheneOS and things I'm passionate about
+Privacy & security collection of information related to GrapheneOS and things I'm passionate about!
 ---
 
 [![Netlify](https://img.shields.io/netlify/63449910-c901-4877-970c-ae0439437e83?style=flat-square)](https://app.netlify.com/sites/akc3n-page/deploys) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)  

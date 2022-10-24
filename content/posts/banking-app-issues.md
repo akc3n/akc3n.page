@@ -21,7 +21,7 @@ Possible solutions for users experiencing issues with banking apps not working o
 
 Current list of working _international_ banking apps that are compatible with GrapheneOS is located on the `Banking apps project`, which can be found at [PrivSec.dev](https://privsec.dev/banking).
 
-# Introduction
+## Introduction
 
 Encountering compatibility issues with banking apps can sometimes be resolved by enabling [native code debugging](https://grapheneos.org/usage#:~:text=try%20enabling%20this%20again%20if%20you've%20disabled%20it%20) and/or enabling our per-app [exploit protection compatibility mode](https://grapheneos.org/usage#:~:text=can%20enable%20our-,exploit%20protection%20compatibility%20mode,-via%20Settings%20%E2%9E%94%20Apps).
 
@@ -47,9 +47,15 @@ To enable per-app exploit protection compatibility mode:
 
 Please read our usage guide on [bugs uncovered by security features](https://grapheneos.org/usage#bugs-uncovered-by-security-features) for more details.
 
-### SafetyNet deprecated 
+## Additional information
+
+Here is some additional information for the end user and possible further action that can be taken to help contribute and support the GrapheneOS project.
+
+### SafetyNet replaced by Play Integrity API
 
 Due to the [discontinuation](https://developer.android.com/training/safetynet/deprecation-timeline) of the [SafetyNet Attestation API](https://developer.android.com/training/safetynet/attestation), which has been replaced by the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), some banking apps compatibility issues will not be resolved with the suggested solution(s) above.
+
+### Attestation compatibility guide 
 
 A [detailed guide](https://grapheneos.org/articles/attestation-compatibility-guide) for app developers on how to support GrapheneOS with the hardware attestation API is provided for users to be able to take further action.
 

@@ -2,11 +2,11 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-tags: ["<tag1>", "<tag2etc>"]
+tags: ["", ""]
 author: "akc3n"
 TocOpen: true
 hidemeta: false
-description: "<add desc>"
+description: ""
 canonicalURL: "https://akc3n.page/posts/" "{{ replace .Name "-" " " | title }}"
 hideSummary: false
 searchHidden: false

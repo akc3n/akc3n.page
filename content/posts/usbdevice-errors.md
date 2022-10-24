@@ -17,14 +17,15 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-A small hand full of end users may experience a failed error during their attempt at installing GrapheneOS during flashing. The common denominator is quite often the `user` _**not**_ reading the prerequisites thoroughly / actively hearing it. These are the error codes and their meanings, as well as the procedures for resolving these common end user errors.
+A small hand full of end users may experience a failed error during their attempt at installing GrapheneOS during flashing. The common denominator is quite often the `user` _**not**_ reading the prerequisites thoroughly.  
 
-## Introduction
+These are the error codes and their meanings, as well as the procedures for resolving these common end user errors.
 
-The most common error of all is the `end user`. It is extremely important to read the installation guide's [prerequisites](https://grapheneos.org/install/web#prerequisites) slowly and make sure you understand what is required!. I strongly recommend that the end user read the guide from start to finish first!
+# Introduction
 
-_**Work in progress! Updating this as time permits. Once complete, I will be adding this as well to our [discussion forum](https://discuss.grapheneos.org)**_.
+The most common error of all is the `end user`. It is extremely important to read the installation guide's [prerequisites](https://grapheneos.org/install/web#prerequisites) slowly and make sure you understand what is required!  
 
+I strongly recommend reading the guide from start to finish first!
 
 ## Access denied
 
@@ -53,6 +54,16 @@ Pop!_OS has no known fix
 
 `Error: Failed to execute 'claimInterface' on 'USBDevice': Unable to claim interface`
 
+### Definition
+
+What this means is that there is a USB driver, hardware issue(s), or you have software running connecting to the phone via USB that's interfering.
+
+### Solution
+
+- Reboot the computer
+- Open up your browser and have **ONLY have 1 tab** with the web installer
+- Reboot phone back into the bootloader interface
+
 ---
 
 ## Write the product
@@ -78,6 +89,6 @@ What this means is that your phone or device has ran [out of memory](https://gra
 
 ### Solution
 
-- Reboot the installer phone or use a different device or PC.
-- Reboot the installee phone back into the bootloader.
+- Reboot the installer phone _**or use a different device or PC**_.
+- Reboot the installee phone back into the bootloader interface
 

@@ -28,7 +28,7 @@ Living in the heart of the [Okanagan Valley](https://en.wikipedia.org/wiki/Okana
 I am also a community moderator and part of the GrapheneOS project team. I use [GrapheneOS](https://grapheneos.org) as my daily driver. I love the [Secure Camera](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play&hl=en_CA&gl=US) [app](https://github.com/GrapheneOS/platform_external_Camera) to [capture the special moments](https://www.flickr.com/people/akc3n/) in life, with the best possibly results from my trips and outdoor experiences. While at the same time, keeping my privacy in tact and secure.
 
 
-### Purpose ↛&nbsp; akc3n.page
+### Purpose → akc3n.page
 
 `$ whatis akc3n.page`   
 
@@ -38,7 +38,7 @@ I decided to gather and collect as much in depth educational knowledge and techn
 
 The purpose of my website is to have a place where I can layout my notes while presenting my findings in a structured and organized format; providing citations and resources at the same time. This also enables me to have quick accessibility, the ability to easily share the information during discussions on topics being covered in real-time, and to streamline my personal development growth in the subjects that I'm passionate about.
 
-## Website ↛&nbsp; akc3n.page
+## Website → akc3n.page
 
 `$ whois akc3n.page`
 
@@ -73,4 +73,6 @@ A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-Wond
 
 ### Deployment
 
-Netlify deployment log history for `Production` branch `main` is available at [sites/akc3n-page/deploys](https://app.netlify.com/sites/akc3n-page/deploys). Site deploys from `github.com/akc3n/akc3n.page`
+Netlify deployment log history for `Production` branch `main` is available at [sites/akc3n-page/deploys](https://app.netlify.com/sites/akc3n-page/deploys). 
+
+Site deploys from `github.com/akc3n/akc3n.page`

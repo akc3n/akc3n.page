@@ -1,6 +1,6 @@
 baseURL: https://akc3n.page/
 languageCode: en-us
-title: akc3n's note pages
+title: akc3n's notes page
 theme: WonderMod
 copyright: 'akc3n.page [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 2020-2022 [LICENSE](https://akc3n.page/LICENSE) '
 enableRobotsTXT: true
@@ -12,7 +12,7 @@ minify:
 
 params:
   env: production
-  title: akc3n's note pages
+  title: akc3n's notes page
   description: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
   keywords: [akc3n, notes, note pages, resources, security, privacy, banking apps project, GrapheneOS]
   author: akc3n
@@ -42,12 +42,12 @@ params:
     icon: "/images/avatar.png"
 
   homeInfoParams:
-        Title: akc3n's note pages
+        Title: akc3n's notes page
         Content: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
 
   profileMode:
     enabled: false
-    title: "akc3n's note pages" # optional default will be site title
+    title: "akc3n's notes page" # optional default will be site title
     subtitle: "I’m just an ordinary human that loves to learn, solve puzzles, and eat food."
     imageUrl: "/images/avatar.png" # optional
       # imageTitle: "akc3n" # optional

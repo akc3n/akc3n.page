@@ -15,6 +15,23 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
+## OEM carrier unlocking
+
+One way to check (also provided in our [installation instructions](https://grapheneos.org/install/web#enabling-oem-unlocking)):
+
+Enable the developer options menu by going to Settings ➔ About phone and repeatedly pressing the build number menu entry until developer mode is enabled.
+
+Next, go to Settings ➔ System ➔ Developer options and toggle on the 'OEM unlocking' setting. This requires internet access on devices with Google Play services as part of Factory Reset Protection (FRP) for anti-theft protection.
+
+However, if OEM unlocking is disabled (greyed out - unable to toggle it on or off), then you won't be able to install GrapheneOS on said device.
+
+Another way you can confirm, is by turning on USB debugging, plug your phone in (if you have a laptop with you and the cli tools installed).
+In adb run: 
+`adb shell getprop ro.boot.cid`. 
+If it returns ANY value except `000000`, return that handset as it is Locked.
+
+---
+
 ## Sieve e-mail filtering
 
 Sieve filter to reject non-encrypted E-mail(s) when using [Protonmail's custom domain](https://proton.me/support/sieve-advanced-custom-filters) by checking `X-Pm-Content-Encryption` header for end-to-end encryption and respond with an automated message
@@ -28,6 +45,7 @@ if allof (
     reject "Input your response reason for rejecting recipients mail.";
 }
 ```
+---
 
 ## DNS
 

@@ -1,5 +1,5 @@
 ---
-title: "About akc3n's note pages"
+title: "About akc3n's notes page"
 date: 2022-10-12T03:22:29-07:00
 tags: ["about", "akc3n", "akc3n.page"]
 aliases: ["/whoami", "/whois"]

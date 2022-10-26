@@ -17,18 +17,49 @@ ShowWordCount: false
 
 ## OEM carrier unlocking
 
-One way to check (also provided in our [installation instructions](https://grapheneos.org/install/web#enabling-oem-unlocking)):
+There are a couple ways to check if the device is carrier locked. 
 
-Enable the developer options menu by going to Settings ➔ About phone and repeatedly pressing the build number menu entry until developer mode is enabled.
+If you are _here_ reading this particular gist snippet, then _you_ have **not** followed our web method [installation guide](https://grapheneos.org/install/web) accurately!
 
-Next, go to Settings ➔ System ➔ Developer options and toggle on the 'OEM unlocking' setting. This requires internet access on devices with Google Play services as part of Factory Reset Protection (FRP) for anti-theft protection.
+### Follow GrapheneOS instructions
 
-However, if OEM unlocking is disabled (greyed out - unable to toggle it on or off), then you won't be able to install GrapheneOS on said device.
+Please read the instructions carefully and follow the step for [Enabling OEM unlocking](https://grapheneos.org/install/web#enabling-oem-unlocking)!
 
-Another way you can confirm, is by turning on USB debugging, plug your phone in (if you have a laptop with you and the cli tools installed).
-In adb run: 
-`adb shell getprop ro.boot.cid`. 
-If it returns ANY value except `000000`, return that handset as it is Locked.
+This requires internet access from the Stock OS with Google Play services as part of `Factory Reset Protection` (`FRP`) for anti-theft protection:  
+    1. Connect to Wi-Fi or use your mobile data.
+
+Enable developer mode:  
+    2. `Settings` → `About phone`  
+    3. Tap `Build number` 7 times → `Enter your pin/pass` → `You are now a developer!`
+
+Enable OEM unlocking:  
+    4. `Settings` → `System` → `Developer options` → `OEM unlocking` 
+
+Note:  
+- It may take several minutes after connecting to the internet before the `OEM unlocking` toggle is active.
+- For [Pixel 6a users](https://grapheneos.org/install/web#:~:text=by%20a%20carrier.-,for%20the%20pixel%206a,-%2C%20OEM%20unlocking%20won't): 
+> For the Pixel 6a, OEM unlocking won't work with the version of the stock OS from the factory. You need to update it to the June 2022 release or later via an over-the-air update. After, you've updated it you'll also need to factory reset the device to fix OEM unlocking.
+
+### Alternative method using the CLI
+
+Using the terminal to verify if the device is locked by the carrier.
+
+Turning on USB debugging:
+1. Enable developer mode.  
+2. `Settings` → `System` → `Developer options` → `Debugging` → `USB debugging`
+
+For your information Linux users need [udev rules](https://github.com/M0Rf30/android-udev-rules) in order to access USB devices. 
+
+3. Verify carrier lock
+
+```bash
+adb shell getprop ro.boot.cid
+```
+4. If it returns ANY value except `000000` than the device is carrier locked.
+
+### Conclusion
+
+OEM unlocking is disabled (greyed out - unable to toggle it on or off) and value returned is not `000000` from `getprop ro.boot.cid` - than you won't be able to install GrapheneOS on that device.
 
 ---
 

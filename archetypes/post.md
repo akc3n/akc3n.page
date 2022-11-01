@@ -7,12 +7,6 @@ author: "akc3n"
 TocOpen: true
 hidemeta: false
 description: ""
-canonicalURL: "https://akc3n.page/posts/" "{{ replace .Name "-" " " | title }}"
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
+canonicalURL: "https://akc3n.page/posts/-ADDHEREBEFORE-gitpush"
 ---
 

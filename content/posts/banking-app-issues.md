@@ -6,15 +6,8 @@ tags: ["GrapheneOS", "SafetyNet", "Play Integrity API", "Banking", "Issues", "So
 aliases: ["/banking-issues"]
 author: "akc3n"
 TocOpen: true
-hidemeta: false
 description: "How to potentially resolve banking app compatibility issues"
 canonicalURL: "https://akc3n.page/posts/banking-app-issues"
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
 ---
 
 Possible solutions for users experiencing issues with banking apps not working on their GrapheneOS devices.

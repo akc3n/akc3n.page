@@ -1,18 +1,14 @@
 ---
-title: "About akc3n's notes page"
+title: "About akc3n.page"
 date: 2022-10-12T03:22:29-07:00
 tags: ["about", "akc3n", "akc3n.page"]
 aliases: ["/whoami", "/whois"]
 author: "akc3n"
-TocOpen: true
-hidemeta: true
 canonicalURL: "https://akc3n.page/about"
-hideSummary: false
-searchHidden: true
+hidemeta: true
 ShowReadingTime: false
-ShowBreadCrumbs: true
 ShowPostNavLinks: false
-ShowWordCount: false
+showtoc: false
 ---
 
 ## Human ♂ akc3n

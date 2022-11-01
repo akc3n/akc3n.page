@@ -1,9 +1,13 @@
-baseURL: https://akc3n.page/
+baseURL: "https://akc3n.page/"
 languageCode: en-us
-title: akc3n's notes page
+title: "akc3n's page of notes"
 theme: WonderMod
-copyright: 'akc3n.page [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 2020-2022 [LICENSE](https://akc3n.page/LICENSE) '
+copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 enableGitInfo: true
 
 minify:
@@ -12,21 +16,31 @@ minify:
 
 params:
   env: production
-  title: akc3n's notes page
-  description: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
-  keywords: [akc3n, notes, note pages, resources, security, privacy, banking apps project, GrapheneOS]
+  title: "akc3n's page of notes"
+  description: "Just an ordinary human that loves to learn, solve puzzles, and eat food."
+  keywords: [Blog, GrapheneOS, Mobile, Android, Security, Privacy, Knowledge, Tips]
   author: akc3n
   defaultTheme: dark
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: false
-  ShowToc: true
   ShowFullTextinRSS: true
+  ShowPostNavLinks: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowWordCount: true
+  
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+  searchHidden: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
 
   assets:
     disableHLJS: true
@@ -42,26 +56,12 @@ params:
     icon: "/images/avatar.png"
 
   homeInfoParams:
-        Title: akc3n's notes page
+        Title: akc3n's page of notes
         Content: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
 
-  profileMode:
-    enabled: false
-    title: "akc3n's notes page" # optional default will be site title
-    subtitle: "I’m just an ordinary human that loves to learn, solve puzzles, and eat food."
-    imageUrl: "/images/avatar.png" # optional
-      # imageTitle: "akc3n" # optional
-    buttons:
-      - name: Banking apps
-        url: https://privsec.dev/banking
-      - name: Posts
-        url: "/posts"
-      - name: Gists
-        url: "/gists"
-      - name: Links
-        url: "/links"
-
   socialIcons:
+    - name: rss
+      url: /index.xml
     - name: github
       url: "https://github.com/akc3n"
     - name: matrix
@@ -86,7 +86,7 @@ params:
     
   editPost:
     URL: "https://github.com/akc3n/akc3n.page/blob/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "source" # edit text
     appendFilePath: true
 
   fuseOpts:

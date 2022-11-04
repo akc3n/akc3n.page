@@ -44,7 +44,10 @@ Significantly important information that provides factual knowledge with persona
 | # | TYPE | DESCRIPTION | SITE | REPORT | SUBMIT |
 | :-: | :--- | :--- | :--- | :---: | :---: |
 | 1 | PROJ | Banking apps project | [privsec.dev/banking](https://privsec.dev/apps/banking-applications-compatibility-with-grapheneos/) | [Review](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) | [Form](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/new?assignees=&labels=&template=app_report.yml) |
-| 2 | POST | USBDevice error guide | [akc3n.page/usbdevice](https://akc3n.page/usbdevice) | `NA` | `NA` |
+| 2 | POST | Explaining failed | [~/usbdevice-errors](https://akc3n.page/usbdevice) | `NA` | `NA` |
+| 3 | POST | Resolving non-working | [~/banking-app-issues](/banking-issues) | `NA` | `NA` |
+
+---
 
 ## Links
 > *Ongoing WIP as time permits to go through my bookmarks to add more. Sorry if I forgot to add any friends at this time*
@@ -55,17 +58,27 @@ Significantly important information that provides factual knowledge with persona
 - https://matt.traudt.xyz/
 - https://seirdy.one/posts/
 - https://privacyguides.org/android/grapheneos-vs-calyxos/
-- https://sideofburritos.com/
-- https://youtube.com/thehatedone
+- https://sideofburritos.com/ | [youtube](https://www.youtube.com/sideofburritos)
+- https://youtube.com/thehatedone | [reddit](https://reddit.com/r/thehatedone)
 - https://qua3k.github.io/
 - https://wonderfall.space/
 - https://hub.libranet.de/wiki/graphene-os/wiki/Links#Links
 
 ... add more from my bookmarks later
 
-## AOSP related
+---
 
-- https://source.android.com/docs/devices/admin/multi-user
+## Android
+
+### Security
+
+- Titan M2 - [Pixel 7 / 7 Pro](https://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html)
+- Titan M1 - [Pixel 6 / 6 Pro](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html)
+- Security bulletins - [Pixel update](https://source.android.com/docs/security/bulletin/pixel#bulletins)
+
+### AOSP
+
+- [Supporting Multiple Users](https://source.android.com/docs/devices/admin/multi-user)
 
 ---
 

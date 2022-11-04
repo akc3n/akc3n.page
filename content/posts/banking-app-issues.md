@@ -10,19 +10,23 @@ description: "How to potentially resolve banking app compatibility issues"
 canonicalURL: "https://akc3n.page/posts/banking-app-issues"
 ---
 
-Possible solutions for users experiencing issues with banking apps not working on their GrapheneOS devices.
-
-Current list of working _international_ banking apps that are compatible with GrapheneOS is located on the `Banking apps project`, which can be found at [PrivSec.dev](https://privsec.dev/banking).
+Potential ways to resolve compatibility issues for users encountering either:
+- their freshly installed banking app aborting at launch
+- a previously functional banking app suddenly stopped working
 
 ## Introduction
 
-Encountering compatibility issues with banking apps can sometimes be resolved by enabling [native code debugging](https://grapheneos.org/usage#:~:text=try%20enabling%20this%20again%20if%20you've%20disabled%20it%20) and/or enabling our per-app [exploit protection compatibility mode](https://grapheneos.org/usage#:~:text=can%20enable%20our-,exploit%20protection%20compatibility%20mode,-via%20Settings%20%E2%9E%94%20Apps).
+Numerous users encountering such circumstances may find it frustrating and challenging at times. However, for most cases, the common solutions provided below may help resolve *some* of these banking app's compatibility issues. 
 
-Please read our usage guide on [banking apps](https://grapheneos.org/usage#banking-apps) for more details.
+_It's very important to thoroughly read [GrapheneOS](https://grapheneos.org)'s [usage guides](https://grapheneos.org/usage#usage) on [Banking apps](https://grapheneos.org/usage#banking-apps) and [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) for detailed explanations on topic._
+
+Please be sure to check the [banking apps project](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/)'s [issue tracker](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) for possible per-app [updates](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/173#issuecomment-1297347651) (example) in user submitted reports.
 
 ## Possible solutions
 
-There are a couple options that may allow for your banking app to work on GrapheneOS.
+Enabling [native code debugging](https://grapheneos.org/usage#:~:text=try%20enabling%20this%20again%20if%20you've%20disabled%20it%20) and/or the per-app [exploit protection compatibility mode](https://grapheneos.org/usage#:~:text=can%20enable%20our-,exploit%20protection%20compatibility%20mode,-via%20Settings%20%E2%9E%94%20Apps) is the most common solution.
+
+Banking apps obtained from Aurora Store may become problematic, or not work from the start, and could potentially have security risks if using the Anonymous Login feature. Reinstalling from the Play Store using the official (sandboxed) Play Store client has resolved this in these cases.
 
 ### Enable native code debugging
 
@@ -39,6 +43,18 @@ To enable per-app exploit protection compatibility mode:
 `Settings` → `Apps` → `<App-name>` → `Advanced` → `Enable exploit protection compatibility`
 
 Please read our usage guide on [bugs uncovered by security features](https://grapheneos.org/usage#bugs-uncovered-by-security-features) for more details.
+
+### AuroraOSS is problematic 
+
+Apps can check if they were installed from the Play Store and can choose to refuse to work if they were not installed from the Play Store. 
+
+Anonymous Logins may have negative consequence that people may not realize. Their [disclaimer](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/DISCLAIMER.md#1-google-accounts) addresses this, however, inexperienced users may not read it or even know about it.
+
+Compared to Aurora Stores client, which is just a Play Store front end, the official Play Store client has a much more secure connection to the Play Store servers.
+
+_For example - It's not entirely out of scope for the potential of nefarious operators to reconfigure these shared account for malicious purposes. Although unknown of such cases, technically speaking, it could be realistically possible._
+
+The fact is that such aspects may be explained by straightforward logic, refusing to put your faith with ones lively hood savings in the face of uncertainty is not a risk to take lightly.
 
 ## Additional information
 

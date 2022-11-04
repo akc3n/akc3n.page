@@ -71,9 +71,9 @@ Feel free to [open an issue](https://github.com/akc3n/akc3n.page/issues/new) or 
 - https://github.com/Wonderfall/
 - https://github.com/tommytran732/
 - https://github.com/Peter-Easton/
-- June
+- June (no longer on Github)
 
 ## License
 
-akc3n.page [CC BY-SA 4.0](LICENSE) 2020-2022
+[CC BY-SA 4.0](LICENSE) 2020-2022
 

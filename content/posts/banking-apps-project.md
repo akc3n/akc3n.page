@@ -4,16 +4,10 @@ date: 2022-10-13T03:39:13-07:00
 draft: true
 tags: ["Banking apps project", "SafetyNet", "Compatibility", "GrapheneOS", "Play Integrity API"]
 author: "akc3n"
-TocOpen: true
+TocOpen: false
 hidemeta: false
 description: "Compatibility list of banking apps that work on GrapheneOS"
 canonicalURL: "https://akc3n.page/posts/bankings-apps-project/"
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
 weight: 1
 ---
 
@@ -21,20 +15,32 @@ weight: 1
 
 Users are able to view the [list](https://privsec.dev/banking) of currently submitted [reports](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) for banking apps that work on [GrapheneOS](https://grapheneos.org/).    
 
-Users may also submit a report of the banking app they tested, what features work and which don't. 
-An issue form template was created via this projects issue tracker by [Zanthed](https://github.com/Zanthed) (Thanks)
+## Prerequisites
 
-List of [Banking apps compatible with GrapheneOS](https://akc3n.org/projects/banking)  
-Submit Report via [Issue tracker](https://github.com/akc3n/banking/issues/new?assignees=&labels=&template=app_report.yml)  
-Repository: https://github.com/akc3n/banking
+This section covers how to submit or update a banking app report.
 
-**Alternatively:**  
-For non-GitHub users that would like to contribute:  
-- [Gist](https://gist.github.com/akc3n/e845078ddbbb28ada0dd055c51ec45af)
-- [Screenshot](https://akc3n.org/assets/issue-form.webp)
-- [Download Raw](https://gist.githubusercontent.com/akc3n/e845078ddbbb28ada0dd055c51ec45af/raw/63b2d2444bf0b9881c22c2a0514a1163116ec27f/issue-form.md) *(Right Click → Save Link As)*
-  
+### Submit a new app report 
+
+There are several methods for GrapheneOS users to contribute their banking app report:
+
+| Method | Description | Action |
+| :--- | :--- | :---: |
+| **GitHub** | Fill out form on [issue-tracker](https://github.com/PrivSec-dev/banking-apps-compat-report/issues) using your GitHub account | [`SUBMIT REPORT`](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/new?assignees=&labels=&template=app_report.yml) |
+| **Non-GitHub** | View gist → Raw → Save template markdown file to fill out. | [`Gist`](https://gist.github.com/akc3n/e845078ddbbb28ada0dd055c51ec45af) |
+| Curl | Terminal → `curl -O` → paste copied url (gist form `.md` template) ⟶ | [`Copy link address`](https://gist.githubusercontent.com/akc3n/e845078ddbbb28ada0dd055c51ec45af/raw/5fdacb267aad5fa95ebf576cdcbd319f80bf9d12/banking-app-report-issue-form.md) |
+| Google Form | N/A at the moment | N/A |
+| [OhMyForm](https://github.com/ohmyform/ohmyform) | N/A at the moment, need to test | N/A |
+
+Alternatively, curl and pipe output directly into vi/vim/neovim for editing:
+
+```bash
+curl https://gist.githubusercontent.com/akc3n/e845078ddbbb28ada0dd055c51ec45af/raw/5fdacb267aad5fa95ebf576cdcbd319f80bf9d12/banking-app-report-issue-form.md\?T | nvim -
 ```
-curl -O https://gist.githubusercontent.com/akc3n/e845078ddbbb28ada0dd055c51ec45af/raw/63b2d2444bf0b9881c22c2a0514a1163116ec27f/issue-form.md
-```
-[Contact](https://akc3n.org/about/#contact) info for submitting banking app report.
+
+### Update status of app report
+
+Please do not open a new issue to update the status of a banking app report!
+
+Use the [issue tracker to search](https://github.com/PrivSec-dev/banking-apps-compat-report/issues) for the banking app name listed above in the [International banking apps](#international-banking-apps) section and add a comment to _that_ report. 
+
+If you are a non-github user and have tried every combination suggested for [possible solutions](https://akc3n.page/banking-issues) without being unable to resolving your specific banking app compatibiliity issue, then [`contact me`](https://privsec.dev/about#akc3n) afterwards please.

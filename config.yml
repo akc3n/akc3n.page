@@ -55,9 +55,22 @@ params:
     text: "Home"
     icon: "/images/avatar.png"
 
-  homeInfoParams:
-        Title: akc3n's page of notes
-        Content: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: akc3n
+    subtitle: "Just an ordinary human that loves to learn, solve puzzles, and eat food."
+    imageUrl: "/images/avatar.png"
+    buttons:
+      - name: About
+        url: about
+      - name: Contact
+        url: contact
+
+# HomeInfo Mode
+#  homeInfoParams:
+#        Title: akc3n's page of notes
+#        Content: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
 
   socialIcons:
     - name: rss

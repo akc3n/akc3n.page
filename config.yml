@@ -73,18 +73,18 @@ params:
 #        Content: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
 
   socialIcons:
-    - name: rss
-      url: /index.xml
+    #- name: rss
+    #  url: /index.xml
     - name: github
       url: "https://github.com/akc3n"
     - name: matrix
       url: "https://matrix.to/#/@akc3n:grapheneos.org"
-    - name: twitter
-      url: "https://twitter.com/JuriAksenov"
-    - name: reddit
-      url: "https://reddit.com/u/akc3n"
-    - name: flickr
-      url: "https://www.flickr.com/people/akc3n/"
+    #- name: twitter
+    #  url: "https://twitter.com/JuriAksenov"
+    #- name: reddit
+    #  url: "https://reddit.com/u/akc3n"
+    #- name: flickr
+    #  url: "https://www.flickr.com/people/akc3n/"
     - name: facebook
       url: "https://www.facebook.com/GrapheneOS"
     - name: instagram
@@ -141,10 +141,10 @@ menu:
       name: Resources
       url: links
       weight: 40
-    - identifier: Search
-      name: Search
-      url: /search/
-      weight: 50
+    #- identifier: Search
+    #  name: Search
+    #  url: /search/
+    #  weight: 50
     - identifier: Banking
       name: Banking apps project
       url: https://privsec.dev/banking

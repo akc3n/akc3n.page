@@ -58,7 +58,7 @@ Please read our usage guide on [bugs uncovered by security features](https://gra
 - Installs the wrong variant of apps by default due to not searching or fetching apps based on device model
 - Shared google accounts, i.e., [Anonymous login mode are problematic](https://twitter.com/GrapheneOS/status/1661989816584511489) and gradually break
 - Anonymous account usage may have [negative](https://twitter.com/GrapheneOS/status/1716519096727064697) consequences
-- The apps downloaded and installed are obtained from the Play Store anyway and use users have the option of using a throwaway account with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)
+- The apps downloaded and installed are obtained from the Play Store anyway and use users have the option of using a [throwaway](https://twitter.com/search?q=throwaway%20(from%3Agrapheneos)&src=typed_query) account with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)
 
 Numerous apps from the Play Store rely on features like Play Asset Delivery, Play Feature Delivery, app/content licensing checks, in-app payments, and other functionalities unique to the Play Store. All these are compatible with the sandboxed Play Store. The dependency on these features by Play Store apps is steadily increasing
 

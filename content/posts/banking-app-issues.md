@@ -14,6 +14,8 @@ Potential ways to resolve compatibility issues for users encountering either:
 - their freshly installed banking app aborting at launch
 - a previously functional banking app suddenly stopped working
 
+> Update: Please see https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos for a more up to date list of possible workaround solutions.
+
 ## Introduction
 
 Numerous users encountering such circumstances may find it frustrating and challenging at times. However, for most cases, the common solutions provided below may help resolve *some* of these banking app's compatibility issues. 
@@ -46,15 +48,19 @@ Please read our usage guide on [bugs uncovered by security features](https://gra
 
 ### AuroraOSS is problematic 
 
-Apps can check if they were installed from the Play Store and can choose to refuse to work if they were not installed from the Play Store. 
+- It doesn't fully work compared to sandboxed Google Play
+- Apps can check if they were installed from the Play Store and can choose to refuse to work if they were not installed from the Play Store.
+- Doesn't verify Play Store signature metadata
+- Doesn't use a reduced CA set or pinning like the Play Store itself
+- i.e., downloaded apps are only secured by HTTPS with every WebPKI CA trusted (isn't very good)
+- May cause your [Google Account to be blocked/blacklisted](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/DISCLAIMER.md#1-google-accounts)  by Google.
+- When using the anonymous mode login:
+- Installs the wrong variant of apps by default due to not searching or fetching apps based on device model
+- Shared google accounts, i.e., [Anonymous login mode are problematic](https://twitter.com/GrapheneOS/status/1661989816584511489) and gradually break
+- Anonymous account usage may have [negative](https://twitter.com/GrapheneOS/status/1716519096727064697) consequences
+- The apps downloaded and installed are obtained from the Play Store anyway and use users have the option of using a throwaway account with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)
 
-Anonymous Logins may have negative consequence that people may not realize. Their [disclaimer](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/DISCLAIMER.md#1-google-accounts) addresses this, however, inexperienced users may not read it or even know about it.
-
-Compared to Aurora Stores client, which is just a Play Store front end, the official Play Store client has a much more secure connection to the Play Store servers.
-
-_For example - It's not entirely out of scope for the potential of nefarious operators to reconfigure these shared account for malicious purposes. Although unknown of such cases, technically speaking, it could be realistically possible._
-
-The fact is that such aspects may be explained by straightforward logic, refusing to put your faith with ones lively hood savings in the face of uncertainty is not a risk to take lightly.
+Numerous apps from the Play Store rely on features like Play Asset Delivery, Play Feature Delivery, app/content licensing checks, in-app payments, and other functionalities unique to the Play Store. All these are compatible with the sandboxed Play Store. The dependency on these features by Play Store apps is steadily increasing
 
 ## Additional information
 

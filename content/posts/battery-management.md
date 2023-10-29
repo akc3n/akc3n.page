@@ -4,6 +4,7 @@ date: 2022-10-15T22:45:36-07:00
 tags: ["GrapheneOS", "Battery management"]
 author: "JollyRoger"
 hidemeta: false
+draft: true
 description: "Power Management For Power Users"
 canonicalURL: "https://akc3n.page/posts/battery-management"
 ---

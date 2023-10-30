@@ -1,7 +1,7 @@
 ---
 title: "Banking apps project"
 date: 2022-10-13T03:39:13-07:00
-draft: false
+draft: true
 tags: ["Banking apps project", "SafetyNet", "Compatibility", "GrapheneOS", "Play Integrity API"]
 author: "akc3n"
 TocOpen: false

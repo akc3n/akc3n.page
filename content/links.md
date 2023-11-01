@@ -54,6 +54,8 @@ Significantly important information that provides factual knowledge with persona
 <!-- FIXME Rewrite description quote above and format accordingly-->
 
 <!-- TODO Create table and format accordingly-->
+- https://wanderingcomputerer.gitlab.io/
+- https://eylenburg.github.io/android_comparison.htm
 - https://tommytran.io/
 - https://matt.traudt.xyz/
 - https://seirdy.one/posts/

@@ -18,7 +18,7 @@ params:
   env: production
   title: "akc3n's page of notes"
   description: "Just an ordinary human that loves to learn, solve puzzles, and eat food."
-  keywords: [Blog, GrapheneOS, Mobile, Android, Security, Privacy, Knowledge, Tips]
+  keywords: [akc3n, Blog, GrapheneOS, Mobile, Android, Security, Privacy, Knowledge, Tips]
   author: akc3n
   defaultTheme: dark
   disableThemeToggle: false
@@ -81,8 +81,12 @@ params:
       url: "https://grapheneos.social/@akc3n"
     - name: matrix
       url: "https://matrix.to/#/@akc3n:grapheneos.org"
-    #- name: twitter
-    #  url: "https://twitter.com/JuriAksenov"
+    - name: twitter
+      url: "https://twitter.com/GrapheneOS"
+    - name: discord
+      url: "https://grapheneos.org/discord"
+    - name: telegram
+      url: "https://t.me/GrapheneOS"
     #- name: reddit
     #  url: "https://reddit.com/u/akc3n"
     #- name: flickr
@@ -101,7 +105,7 @@ params:
     
   editPost:
     URL: "https://github.com/akc3n/akc3n.page/blob/main/content"
-    Text: "source" # edit text
+    Text: "Suggest changes" # edit text
     appendFilePath: true
 
   fuseOpts:
@@ -113,11 +117,13 @@ params:
     minMatchCharLength: 0
     keys: ["title", "summary"]
 
+# Enabling Search
 outputs:
   home:
     - HTML
     - JSON # is necessary
-
+    
+# Enable Chroma
 markup:
     highlight:
         style: dracula
@@ -143,13 +149,13 @@ menu:
       name: Resources
       url: links
       weight: 40
-    #- identifier: Search
-    #  name: Search
-    #  url: /search/
-    #  weight: 50
+    - identifier: Blog
+      name: Blog
+      url: https://privsec.dev/posts/
+      weight: 50
     - identifier: Banking
       name: Banking apps project
-      url: https://privsec.dev/banking
+      url: https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/
       weight: 60
 
 privacy:

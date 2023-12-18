@@ -21,6 +21,7 @@ Registration does not require your email address or any personal information._
 
 | Social | Profile |
 | :----- | :---------- |
+| GitHub | [github.com/akc3n](https://github.com/akc3n) |
 | Discuss: | [discuss.grapheneos](https://discuss.grapheneos.org/u/akc3n) |
 | Mastodon: | [@akc3n@grapheneos.social](https://grapheneos.social/@akc3n) |
 | Twitter: | [x.com/@](https://twitter.com/JuriAksenov) |

@@ -90,6 +90,11 @@ Past experiences show these topics often lead to unresolvable, ego-driven disput
 
 Topics under [Rule 2](#2-avoid-bikeshedding) can be discussed in our off-topic room to a limited extent, provided the discussions remain civil and non-inflammatory. [Rule 0](#0-ethical-interaction-and-communication-directive) still applies, and adherence to Rule 1 is strongly encouraged.
 
+#### Acknowledgement
+
+The original chat room rules were last updated 2020-12-25.
+<sub>_Source: [The GrapheneOS IRC Channel Rules](https://loui.ca/grapheneos.org/static/irc-rules.txt))_</sub>
+
 ### Understanding Censorship vs. Free Speech vs. Moderation
 
 #### Censorship

@@ -6,7 +6,7 @@ tags: ["GrapheneOS", "Community", "Guidelines"]
 aliases: ["/community-guidelines"]
 author: "akc3n"
 TocOpen: true
-description: "GrapheneOS Community Guidelines"
+description: "Unofficial guidelines, official (ref) CoC and chat rules related to the GrapheneOS community"
 canonicalURL: "https://akc3n.page/posts/grapheneos-commmunity-guidelines"
 ---
 

@@ -69,8 +69,6 @@ This Code of Conduct is adapted from the Chromium Code of Conduct, based on the 
 
 ### 1. Read the [GrapheneOS FAQ](https://grapheneos.org/faq) thoroughly before posting.
 
-> [!NOTE]  
-> Revert back to original rules for 2._x_
 
 ### 2. Avoid Bikeshedding: Bikeshedding refers to the act of focusing on trivialities, consuming mental bandwidth and diverting resources from more significant issues. This includes topics such as:
 

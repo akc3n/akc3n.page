@@ -1,4 +1,4 @@
-                                     ``....--------------....``                                     
+                                     ``....--------------....``                                 
                                ``.--:::////++++++++++++++////:::--.``                               
                            `.--:://++++++++++++++++++++++++++++++//::--.`                           
                         `--://++++++++++++++++++++++++++++++++++++++++//:--`                        
@@ -50,29 +50,46 @@
                                `..-:::///+++++++++++++++++////:::-..`                               
                                      `...---::::::::::::---...`                                     
 
- 
                                           
-/* TEAM */
+/* WHO */
 Name: akc3n
 Title: Owner         
 Site: https://akc3n.page/
 Twitter: https://twitter.com/JuriAksenov             
-Location: Okanagan, Canada
-From: Kyiv, Ukraine
-				
-/* THANKS */							
+Location: Canada
+From: USSR
+Who: I’m just an ordinary human that loves to learn, solve puzzles, and eat food.
+Whoami: https://akc3n.page/about/
+README: https://github.com/akc3n
+
+/* SOCIAL */
+Project: @GrapheneOS
+Forum: https://discuss.grapheneos.org
+Discord: https://grapheneos.org/discord
+Matrix: https://app.element.io/#/room/%23community:grapheneos.org
+Telegram: https://t.me/GrapheneOS
+Twitter: https://twitter.com/GrapheneOS
+Bluesky: https://bsky.app/profile/grapheneos.org
+GitHub: https://github.com/GrapheneOS
+
+/* PROJECTS */							
 Name: https://grapheneos.org
 Name: https://github.com/orgs/GrapheneOS/people
+Name: https://privsec.dev/about/
+Name: https://github.com/orgs/PrivSec-dev/people
+Name: https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/
+
+/* THANKS */
 Name: https://github.com/Peter-Easton
 Name: https://github.com/Wonderfall
 Name: https://github.com/tommytran732
 Name: https://github.com/PrivSec-dev
-Name: https://privsec.dev/apps/banking-applications-compatibility-with-grapheneos/
+Name: https://github.com/thestinger
 
 /* SITE */
-Last update: 2022/10/13
+Last update: See https://github.com/akc3n/akc3n.page/commits/main/
 Language: English
-IDE: xterm-kitty, neovim, git, ssh
+IDE: xterm-kitty, neovim, git, ssh, arch, gnome
 Standards: Hugo             
 Components: hugo-WonderMod
 Software: akc3n.page's purpose is a streamlined collections of information from multiple platforms related to GrapheneOS and things I'm passionate about.

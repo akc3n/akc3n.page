@@ -79,12 +79,12 @@ if allof (
     reject "Input your response reason for rejecting recipients mail.";
 }
 ```
+
 ---
 
 ## DNS
 
 ### Protect parked domain without email
-<!-- TODO Add small description and include citations-->
 
 | HOSTNAME | TYPE | TTL | DATA |
 | :--- | :--- | :--- | :--- |
@@ -92,6 +92,26 @@ if allof (
 | `*._domainkey` | TXT | `600` | `"v=DKIM1; p="` |
 | `_dmarc` | TXT | `600` | `"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"` |
 | `<domain.tld>` | MX | `600` | `0 .` |
+
+#### Explanations
+
+**SPF hardfail**
+
+`-all` is the only value in the record, since no other value is specified, the SPF test will always fail. This is a side effect of SPF specified in [Administrator's Considerations](https://www.rfc-editor.org/rfc/rfc7208#section-10.1.2) section.
+
+**NULL MX**
+
+`.` is a special value from [RFC2782](https://www.rfc-editor.org/rfc/rfc2782) (see `Target` and `Usage rules` section) indicating that the "service is decidedly not available at this domain" (p. 4 in `Target` section). Further reading at [RFC7505](https://www.rfc-editor.org/rfc/rfc7505) for NULL MX.
+
+**DKIM p=**
+
+See [3.6.1](https://www.rfc-editor.org/rfc/rfc6376.html#section-3.6.1) and [6.1.2](https://www.rfc-editor.org/rfc/rfc6376.html#section-6.1.2) sections.
+
+In short, the `p=` value normally holds a base64-encoded public key. If this variable is empty, then the key has been revoked and the DKIM test fails.
+
+**DMARC**
+
+Because you set hardfail SPF and DKIM with revoked key, DMARC will always fail. If an attacker tries to spoof your domain, DMARC **will** reject these mails, thus not delivering them *(assuming an attacker has managed to get around SPF somehow, since `"v=spf1 -all"` will normally rejects those mails in the first place)*. Further reading at [RFC7489](https://datatracker.ietf.org/doc/html/rfc7489).
 
 ---
 

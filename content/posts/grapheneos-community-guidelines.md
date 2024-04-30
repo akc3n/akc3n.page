@@ -64,7 +64,7 @@ Bikeshedding refers to the act of focusing on trivialities, consuming mental ban
 
 #### (A) Apps, service providers or protocols
 
-- Apps, service providers, or protocols not included with GrapheneOS. Services like mail, messaging, and cloud storage are beyond GrapheneOS's control and off-topic.
+- Apps, service providers, or protocols not included with GrapheneOS. Services like mail, messaging, and cloud storage are beyond GrapheneOS's control and offtopic. Please use the [#apps:grapheneos.org](https://matrix.to/#/%23apps:grapheneos.org) chat room.  
 
 #### (B) Unrelated operating systems
 

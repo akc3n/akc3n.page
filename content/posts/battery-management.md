@@ -9,6 +9,13 @@ description: "Power Management For Power Users"
 canonicalURL: "https://akc3n.page/posts/battery-management"
 ---
 
+The purpose of hosting this page is to preserve the article in a more readable form, as the [original](https://gist.githubusercontent.com/Peter-Easton/4982f66e93387e02dd2c1d677d71f4f2/raw/4edf9a41ca3a4d053c8ad7bf365f97c923f01c61/battery-management.txt) was previously on a `.txt` file on GitHub.  
+For further details, please refer to the [acknowledgement](#acknowledgment) and [note](#note).  
+Please note that the views expressed in this article do not reflect the official stance of the GrapheneOS project on batteries and charging.  
+  
+**You can find the official statement on this topic here:**  
+https://discuss.grapheneos.org/d/9017-how-can-i-limit-battery-charge-to-80/36  
+
 ## Introduction
 
 A recurring question we get at the GrapheneOS IRC Channel is how to maximize the healthy lifespan of your phone's the battery. The official answer we have to this is very simple if you'd like to ensure your phone's battery lasts the longest:

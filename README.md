@@ -2,6 +2,10 @@
 Privacy & security collection of information related to GrapheneOS and things I'm passionate about!
 ---
 
+> [!IMPORTANT] akc3n.page is deprecated!  
+> This repository is marked as [archived](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories) as of Tuesday, July 22, 2025.  
+> Please use https://seprand.github.io moving forward.
+
 [![Netlify](https://img.shields.io/netlify/63449910-c901-4877-970c-ae0439437e83?style=flat-square)](https://app.netlify.com/sites/akc3n-page/deploys) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)  
 
 The purpose of my website is to have a place where I can layout my notes while presenting my findings in a structured and organized format; providing citations and resources at the same time. This also allows me to have easier access to and more easily share the information during discussions on topics being covered in real-time, and to streamline my personal development growth in the subjects that I'm passionate about.
